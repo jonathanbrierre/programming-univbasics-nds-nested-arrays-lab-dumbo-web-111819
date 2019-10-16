@@ -50,8 +50,8 @@ def array_literal_matrix
   "Michael Pemulis"]
     ]
   
-  matrix[1].sort!
-  matrix[2].sort!
+  matrix[1].sort
+  matrix[2].sort
   matrix
 end
 
