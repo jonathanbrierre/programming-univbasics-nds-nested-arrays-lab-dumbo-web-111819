@@ -25,6 +25,11 @@ def assembled_matrix
   "Pat M.",
   "Kate Gompert",
   "Bruce Green"],
+  [ "Hal Incandenza",
+  "Lyle",
+  "Gerhard Schtitt",
+  "Mario Incandenza",
+  "Michael Pemulis"]
     ]
 end
 
@@ -32,13 +37,17 @@ def array_literal_matrix
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
+  matrix[1].sort!
+  matrix[2].sort!
 end
 
 def matrix_lookup(matrix, row, column)
   # Return the matrix's content at row and column
+  matrix[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at row and column to have the value of new_value
   # Return the updated matrix
+  matrix[row][column]=new_value
 end
