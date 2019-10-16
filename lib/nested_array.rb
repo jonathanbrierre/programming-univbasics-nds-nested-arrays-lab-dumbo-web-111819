@@ -50,9 +50,11 @@ def array_literal_matrix
   "Michael Pemulis"]
     ]
   
-  matrix[1].sort
-  matrix[2].sort
-  matrix
+  matrix[1].sort = new_ennet
+  matrix[2].sort = new_enfield
+  matrix = [
+    new_ennet,
+    new_enfield]
 end
 
 def matrix_lookup(matrix, row, column)
