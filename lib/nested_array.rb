@@ -50,8 +50,8 @@ def array_literal_matrix
   "Michael Pemulis"]
     ]
   
-  matrix[1].sort = new_ennet
-  matrix[2].sort = new_enfield
+  new_ennet = matrix[1].sort 
+  new_enfield = matrix[2].sort
   matrix = [
     new_ennet,
     new_enfield]
