@@ -39,6 +39,7 @@ def array_literal_matrix
   # alphabetically by the first character.
   matrix[1].sort!
   matrix[2].sort!
+  matrix
 end
 
 def matrix_lookup(matrix, row, column)
