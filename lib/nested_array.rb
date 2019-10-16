@@ -42,19 +42,15 @@ def array_literal_matrix
   "Joelle van Dyne",
   "Pat M.",
   "Kate Gompert",
-  "Bruce Green"],
+  "Bruce Green"].sort,
   [ "Hal Incandenza",
   "Lyle",
   "Gerhard Schtitt",
   "Mario Incandenza",
-  "Michael Pemulis"]
+  "Michael Pemulis"].sort
     ]
   
-  new_ennet = matrix[1]
-  new_enfield = matrix[2]
-  matrix = [
-    new_ennet.sort,
-    new_enfield.sort]
+ 
 end
 
 def matrix_lookup(matrix, row, column)
